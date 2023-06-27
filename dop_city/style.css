@@ -178,3 +178,21 @@ h1{
 .ogg {
 	color: #e298e1;
 }
+.oggmp3 {
+	text-align: center;
+	margin: 0 auto;
+}
+#oggmp3 {
+	width: 1890px;
+	height: 860px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 4px solid #FFF;
+	margin: 0;
+}
+#oggogg {
+	position: absolute;
+	top: 430px;
+	left: 800px;
+}
