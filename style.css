@@ -9,7 +9,7 @@ a {
 }
 body{
 	font-family: 'Helvetica Neue', sans-serif;
-	 background: url('https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') center;
+	background: url('bg.jpg');
 }
 nav{
 	text-align: center;
