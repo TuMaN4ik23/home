@@ -12,7 +12,7 @@ p {
 }
 body{
 	font-family: 'Helvetica Neue', sans-serif;
-	 background: #000;
+	background: url('bg.jpg');
 }
 nav{
 	text-align: center;
@@ -90,6 +90,7 @@ h1{
 	border: 4px solid #FFF;
 }
 .paris1 {
+	transform: rotate(720deg);
 	top: 10px;
 	left: 10px;
 	width: 430px;
@@ -99,6 +100,7 @@ h1{
 }
 
 .paris2 {
+	transform: rotate(720deg);
 	top: 290px;
 	left: 10px;
 	width: 210px;
@@ -107,6 +109,7 @@ h1{
 	border: 1px solid #FFF;
 }
 .paris3 {
+	transform: rotate(720deg);
 	top: 290px;
 	left: 230px;
 	width: 210px;
@@ -115,6 +118,7 @@ h1{
 	border: 1px solid #FFF;
 }
 .paris4 {
+	transform: rotate(720deg);
 	top: 439px;
 	left: 10px;
 	width: 210px;
@@ -123,6 +127,7 @@ h1{
 	border: 1px solid #FFF;
 }
 .paris5 {
+	transform: rotate(720deg);
 	top: 439px;
 	left: 230px;
 	width: 210px;
@@ -131,6 +136,7 @@ h1{
 	border: 1px solid #FFF;
 }
 .paris6 {
+	transform: rotate(720deg);
 	top: 588px;
 	left: 10px;
 	width: 430px;
@@ -195,4 +201,26 @@ h1{
 	position: absolute;
 	top: 430px;
 	left: 800px;
+}
+#bar {
+    top:-5.2em; left: 500px; /* Положение */
+    padding: .8em; /* Поля */
+    margin: 0; /* Отступы */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 2em; /* Ширина */
+    background: rgba(255,255,255, 0.7); /* Цвет фона */
+    color: #000; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
+    /* Переход */
+    -webkit-transition: top 1s ease-out 0.1s;
+    -moz-transition: top 1s ease-out 0.1s;
+    -o-transition: top 1s ease-out 0.1s;
+    transition: top 1s ease-out 0.1s;
+}
+#bar:hover {
+    top: 0; 
+}
+.sub-num li:hover{
+	background: #FFF;
+	cursor: pointer;
 }

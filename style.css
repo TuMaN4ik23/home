@@ -47,7 +47,7 @@ h1{
 	background: rgba(0,0,0, 0.8);
 	padding: 8px 0;
 	color: #e298e1;
-	border-bottom: 1px solid rgba(255,255,255, 0.2);
+	border: 1px solid rgba(255,255,255, 0.2);
 	transform: scale(0);
 	transform-origin: top center;
 	transition: all 300ms ease-in-out;
@@ -56,7 +56,7 @@ h1{
 	border-bottom: 0;
 }
 .sub-menu li:hover{
-	background: black;
+	background: rgba(255,255,255, 0.1);
 }
 .menu > li:hover .sub-menu li{
 	transform: scale(1);
@@ -71,4 +71,32 @@ h1{
 	top: 10px;
 	left: 10px;
 	border: 4px solid #000;
+}
+
+#bar {
+    top:-1.9em; left: 500px; /* Положение */
+    padding: .8em; /* Поля */
+    margin: 0; /* Отступы */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 2em; /* Ширина */
+    background: rgba(255,255,255, 0.7); /* Цвет фона */
+    color: #000; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
+    /* Переход */
+    -webkit-transition: top 1s ease-out 0.1s;
+    -moz-transition: top 1s ease-out 0.1s;
+    -o-transition: top 1s ease-out 0.1s;
+    transition: top 1s ease-out 0.1s;
+}
+#bar:hover {
+    top: 0; 
+}
+.sub-num li:hover{
+	transform: rotate(180deg);
+	background: #000;
+	cursor: pointer;
+	color: #FFF;
+}
+.ans {
+	background: #FFF;
 }
