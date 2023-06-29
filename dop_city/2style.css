@@ -1,0 +1,6 @@
+.png {
+   display: none;
+}
+a.txt:hover+div {
+   display: block;
+}

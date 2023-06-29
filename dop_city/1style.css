@@ -1,0 +1,230 @@
+@font-face {
+	font-family: Pompadur; /* Гарнитура шрифта */
+	src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	color: #000;
+	text-decoration: none
+}
+p {
+	text-align: center;
+}
+body{
+	font-family: 'Helvetica Neue', sans-serif;
+	background: url('bg.jpg');
+}
+nav{
+	text-align: center;
+	margin: 0 auto;
+	font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+h1{
+	color: rgba(255, 255, 255,0.5);
+	text-align: center;
+	font-size: 13em;
+}
+h2 {
+	font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+.png {
+   display: none;
+}
+a.txt:hover+div {
+   display: block;
+}
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+.menu{
+	display: inline-block;
+	top: 10px;
+}
+.menu > li{
+	float: left;
+	color: #e298e1;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	background: rgba(255,255,255, 0.7);
+	cursor: pointer;
+	font-size: 17px;
+}
+.sub-menu{
+	transform: scale(0);
+	transform-origin: top center;
+	transition: all 300ms ease-in-out;
+}
+.sub-menu li{
+	font-size: 14px;
+	background: rgba(255,255,255, 0.8);
+	padding: 8px 0;
+	color: #e298e1;
+	border-bottom: 1px solid rgba(255,255,255, 0.2);
+	transform: scale(0);
+	transform-origin: top center;
+	transition: all 300ms ease-in-out;
+}
+.sub-menu li:last-child{
+	border-bottom: 0;
+}
+.sub-menu li:hover{
+	background: #FFF;
+}
+.menu > li:hover .sub-menu li{
+	transform: scale(1);
+}
+.menu > li:hover .sub-menu{
+	transform: scale(1);
+}
+.title {
+	width:200px;
+	height:100px;
+	text-align: center;
+}
+.text {
+	color: #FFF;
+}
+
+.dopimg {
+	width: 150px;
+	height: 100px;
+}
+
+#info1 {
+	width: 450px;
+	height: 758px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 4px solid #FFF;
+}
+.paris1 {
+	transform: rotate(720deg);
+	top: 10px;
+	left: 10px;
+	width: 430px;
+	height: 270px;
+	position: absolute;
+	border: 1px solid #FFF;
+}
+
+.paris2 {
+	transform: rotate(720deg);
+	top: 290px;
+	left: 10px;
+	width: 210px;
+	height: 139px;
+	position: absolute;
+	border: 1px solid #FFF;
+}
+.paris3 {
+	transform: rotate(720deg);
+	top: 290px;
+	left: 230px;
+	width: 210px;
+	height: 139px;
+	position: absolute;
+	border: 1px solid #FFF;
+}
+.paris4 {
+	transform: rotate(720deg);
+	top: 439px;
+	left: 10px;
+	width: 210px;
+	height: 139px;
+	position: absolute;
+	border: 1px solid #FFF;
+}
+.paris5 {
+	transform: rotate(720deg);
+	top: 439px;
+	left: 230px;
+	width: 210px;
+	height: 139px;
+	position: absolute;
+	border: 1px solid #FFF;
+}
+.paris6 {
+	transform: rotate(720deg);
+	top: 588px;
+	left: 10px;
+	width: 430px;
+	height: 160px;
+	position: absolute;
+	border: 1px solid #FFF;
+}
+#info2 {
+	width: 450px;
+	height: 770.625px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 4px solid #FFF;
+}
+.scale {
+	display: inline-block; /* Строчно-блочный элемент */
+	overflow: hidden; /* Скрываем всё за контуром */
+}
+.scale img {
+	transition: 1s; /* Время эффекта */
+	display: block; /* Убираем небольшой отступ снизу */
+}
+.scale img:hover {
+	transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.paris1_video {
+	position: absolute;
+	border: 1px solid #FFF;
+	top: 10px;
+	left: 10px;
+}
+.paris2_video {
+	position: absolute;
+	border: 1px solid #FFF;
+	top: 261.875px;
+	left: 10px;
+}
+.paris3_video {
+	position: absolute;
+	border: 1px solid #FFF;
+	top: 513.75px;
+	left: 10px;
+}
+.ogg {
+	color: #e298e1;
+}
+.oggmp3 {
+	text-align: center;
+	margin: 0 auto;
+}
+#oggmp3 {
+	width: 1890px;
+	height: 860px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: 4px solid #FFF;
+	margin: 0;
+}
+#oggogg {
+	position: absolute;
+	top: 430px;
+	left: 800px;
+}
+
+.m {
+	top:0px !important;
+	position: fixed;
+	width: 99%;
+	height: 50px;
+	marging:0;
+}
+li {
+	list-style: none;
+}
