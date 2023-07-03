@@ -101,13 +101,45 @@ h1{
     left: 0; 
 }
 .sub-num li:hover{
-	background: #000;
+	background: rgba(0, 0, 0, .0);
 	cursor: pointer;
 	color: #FFF;
 }
+
+#bar1 {
+    left:4.7em; top: -2.3em; /* Положение */
+    padding: .8em; /* Поля */
+    margin: 0; /* Отступы */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 3em; /* Ширина */
+    background: rgba(255,255,255, 0.7); /* Цвет фона */
+    color: #000; /* Цвет текста */
+    text-align: center; /* Выравнивание по центру */
+    /* Переход */
+    transition: top 1s ease-out 0.1s;
+    transition: top 1s ease-out 0.1s;
+    transition: top 1s ease-out 0.1s;
+    transition: top 1s ease-out 0.1s;
+}
+#bar1:hover {
+    border: 1px solid rgba(255,0,0, 1.0);
+    background: rgba(0, 0, 0, 0);
+    top: 0; 
+}
+.sub1-num li:hover{
+	background: rgba(255, 255, 255, 0.1);
+	cursor: pointer;
+	color: #FFF;
+}
+
+
 .ans {
 	background: #FFF;
 }
 nav {
 	font-family: Pompadur, 'Comic Sans MS', cursive;
+}
+.cur {
+	color: #FFF;
+	cursor: default;
 }
